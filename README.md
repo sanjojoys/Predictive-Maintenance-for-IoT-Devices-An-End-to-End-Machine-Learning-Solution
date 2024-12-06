@@ -20,7 +20,7 @@ The dataset used in this project is too large to store on GitHub. You can access
 
 [Access the Data Folder](https://drive.google.com/drive/u/1/folders/11r56m8K_hHvf268HRlbAln1ygg5OAqjW)
 
-Here’s a structured plan for creating documentation and a presentation for the Predictive Maintenance IoT Project. This will include the comment regarding the project’s status due to AWS Free Tier limitations.
+----------
 
 Documentation
 
