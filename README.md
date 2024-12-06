@@ -18,4 +18,4 @@ Project Features
 
 The dataset used in this project is too large to store on GitHub. You can access the data folder via this Google Drive link:
 
-[Access the Data Folder](https://drive.google.com/drive/folders/10C5GNFP6gtN0MIj-Rm_WU3Kry77ls5TX?usp=drive_link)
+[Access the Data Folder](https://drive.google.com/drive/u/1/folders/11r56m8K_hHvf268HRlbAln1ygg5OAqjW)
