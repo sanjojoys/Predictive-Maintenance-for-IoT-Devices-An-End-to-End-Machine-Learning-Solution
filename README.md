@@ -19,3 +19,65 @@ Project Features
 The dataset used in this project is too large to store on GitHub. You can access the data folder via this Google Drive link:
 
 [Access the Data Folder](https://drive.google.com/drive/u/1/folders/11r56m8K_hHvf268HRlbAln1ygg5OAqjW)
+
+Here’s a structured plan for creating documentation and a presentation for the Predictive Maintenance IoT Project. This will include the comment regarding the project’s status due to AWS Free Tier limitations.
+
+Documentation
+
+1. Project Overview
+
+	•	Title: Predictive Maintenance IoT System
+	•	Objective: Develop an IoT-based predictive maintenance system to forecast failures using sensor data and machine learning models.
+	•	Status: Project halted due to restriction of AWS Free Tier limit.
+
+2. Project Components
+
+	1. Data Acquisition:
+	• Collected environmental sensor data.
+	• Data contains readings for temperature, humidity, CO, LPG, and other metrics.
+	2. Preprocessing:
+	• Handled missing values.
+	• Normalized and scaled sensor readings.
+	3. Exploratory Data Analysis (EDA):
+	• Visualized trends in sensor data.
+	• Analyzed feature correlations.
+	4. Feature Engineering:
+	• Extracted rolling averages, variances, FFTs, and other derived features.
+	5. Model Development:
+	• Models implemented: Logistic Regression, Random Forest, XGBoost, and LSTM.
+	• XGBoost achieved the best accuracy: 1.00 AUC-ROC.
+	6. API Development:
+	• FastAPI-based API to handle predictions.
+	• Endpoints developed for health check and prediction.
+	7. Deployment:
+	• Dockerized application prepared for deployment.
+	   eployment halted due to AWS restrictions.
+
+3. Challenges Faced
+
+	•	AWS Free Tier limitations restricted further progress.
+	•	Debugging FastAPI deployment issues with Docker.
+
+4. How to Run the Project
+
+	1.	Clone the repository:
+
+git clone https://github.com/your-repository/predictive-maintenance-iot.git
+
+
+	2.	Install dependencies:
+
+pip install -r requirements.txt
+
+
+	3.	Run the application locally:
+
+uvicorn API_fastAPI:app --reload
+
+
+
+5. Future Enhancements
+
+	•	Deploy the application on a scalable cloud platform.
+	•	Add real-time MQTT or Kafka integration.
+	•	Integrate with a database for storing historical data and results.
