@@ -13,3 +13,9 @@ Project Features
 	8.	Integration: Create a front-end interface for user interaction using React or Streamlit.
 	9.	CI/CD Pipeline: Use GitHub Actions to automate testing and deployment.
 	10.	Documentation: Provide clear README, installation instructions, and detailed explanations of the pipeline.
+
+## Data Folder
+
+The dataset used in this project is too large to store on GitHub. You can access the data folder via this Google Drive link:
+
+[Access the Data Folder](https://drive.google.com/drive/folders/10C5GNFP6gtN0MIj-Rm_WU3Kry77ls5TX?usp=drive_link)
